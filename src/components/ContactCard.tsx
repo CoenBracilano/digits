@@ -4,7 +4,7 @@ import { Contact, Note } from '@prisma/client';
 import { Card, Image, ListGroup } from 'react-bootstrap';
 import Link from 'next/link';
 import NoteItem from '@/components/NoteItem';
-import AddNoteForm from './AddNoteForm copy';
+import AddNoteForm from './AddNoteForm';
 
 const ContactCard = ({ contact, notes }: { contact: Contact, notes: Note[] }) => (
   <Card className="h-100">
